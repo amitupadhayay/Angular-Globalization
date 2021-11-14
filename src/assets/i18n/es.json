@@ -1,0 +1,29 @@
+{
+    "toolbar":{
+        "app-name":"GLOBALIZACIÓN ANGULAR",
+        "profile":"Perfil",
+        "logout":"Cerrar sesión"
+    },
+    "sidenav":{
+        "comp-one":"comp uno",
+        "comp-two":"comp-dos",
+        "comp-three":"comp-tres",
+        "comp-four":"comp-cuatro"
+    },
+    "comp-one":{
+        "title":"Página del componente uno",
+        "welcome-text":"Bienvenido a la página Component-One"
+    },
+    "comp-two":{
+        "title":"Página del componente dos",
+        "welcome-text":"Bienvenido a la página del componente dos"
+    },
+    "comp-three":{
+        "title":"Página del componente tres",
+        "welcome-text":"Bienvenido a la página del componente tres"
+    },
+    "comp-four":{
+        "title":"Página del componente cuatro",
+        "welcome-text":"Bienvenido a la página del componente cuatro"
+    }
+}
