@@ -9,9 +9,12 @@ import { CompThreeComponent } from './pages/comp-three/comp-three.component';
 import { CompFourComponent } from './pages/comp-four/comp-four.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AngularMaterialModule } from './core/services/angular-material.module';
-import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HttpClient, HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { EmployeeListComponent } from './pages/employee-list/employee-list.component';
+import { AppInterceptorService } from './core/services/app-interceptor.service';
 
 export function rootLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, 'assets/i18n/', '.json');
@@ -23,13 +26,15 @@ export function rootLoaderFactory(http: HttpClient) {
     CompOneComponent,
     CompTwoComponent,
     CompThreeComponent,
-    CompFourComponent
+    CompFourComponent,
+    EmployeeListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     AngularMaterialModule,
+    MatSnackBarModule,
     HttpClientModule,
     TranslateModule.forRoot({
       loader: {
@@ -39,7 +44,14 @@ export function rootLoaderFactory(http: HttpClient) {
       }
     })
   ],
-  providers: [],
+  providers: [
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AppInterceptorService,
+      multi: true,
+    }
+
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

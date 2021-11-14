@@ -1,29 +1,30 @@
 {
-    "toolbar":{
-        "app-name":"MONDIALISATION ANGULAIRE",
-        "profile":"Profil",
-        "logout":"Se déconnecter"
+    "toolbar": {
+        "app-name": "MONDIALISATION ANGULAIRE",
+        "profile": "Profil",
+        "logout": "Se déconnecter"
     },
-    "sidenav":{
-        "comp-one":"une comp",
-        "comp-two":"comp-deux",
-        "comp-three":"comp-trois",
-        "comp-four":"comp-quatre"
+    "sidenav": {
+        "comp-one": "une comp",
+        "comp-two": "comp-deux",
+        "comp-three": "comp-trois",
+        "comp-four": "comp-quatre",
+        "employee-list": "liste des employés"
     },
-    "comp-one":{
-        "title":"Composant-Une page",
-        "welcome-text":"Bienvenue sur la page Component-One"
+    "comp-one": {
+        "title": "Composant-Une page",
+        "welcome-text": "Bienvenue sur la page Component-One"
     },
-    "comp-two":{
-        "title":"Composant - Deux pages",
-        "welcome-text":"Bienvenue sur la page Composant-Deux"
+    "comp-two": {
+        "title": "Composant - Deux pages",
+        "welcome-text": "Bienvenue sur la page Composant-Deux"
     },
-    "comp-three":{
-        "title":"Composant - Trois pages",
-        "welcome-text":"Bienvenue sur la page du composant trois"
+    "comp-three": {
+        "title": "Composant - Trois pages",
+        "welcome-text": "Bienvenue sur la page du composant trois"
     },
-    "comp-four":{
-        "title":"Composant-Quatre Page",
-        "welcome-text":"Bienvenue sur la page Component-Four"
+    "comp-four": {
+        "title": "Composant-Quatre Page",
+        "welcome-text": "Bienvenue sur la page Component-Four"
     }
 }

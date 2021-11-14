@@ -67,6 +67,7 @@ export class AppComponent {
     this.appList.push({ AppCode: "Comp-Two", AppName: "comp-two", url: "comp-two", icon: "contacts" });
     this.appList.push({ AppCode: "Comp-Three", AppName: "comp-three", url: "comp-three", icon: "person" });
     this.appList.push({ AppCode: "Comp-Four", AppName: "comp-four", url: "comp-four", icon: "person" });
+    this.appList.push({ AppCode: "employee-list", AppName: "employee-list", url: "employee-list", icon: "person" });
   }
 
   getLanguageList() {

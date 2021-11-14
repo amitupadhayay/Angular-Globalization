@@ -4,6 +4,7 @@ import { CompFourComponent } from './pages/comp-four/comp-four.component';
 import { CompOneComponent } from './pages/comp-one/comp-one.component';
 import { CompThreeComponent } from './pages/comp-three/comp-three.component';
 import { CompTwoComponent } from './pages/comp-two/comp-two.component';
+import { EmployeeListComponent } from './pages/employee-list/employee-list.component';
 
 const routes: Routes = [
   // {
@@ -32,8 +33,8 @@ const routes: Routes = [
     component: CompFourComponent,
   },
   {
-    path: 'comp-one',
-    component: CompOneComponent,
+    path: 'employee-list',
+    component: EmployeeListComponent,
   },
 ];
 

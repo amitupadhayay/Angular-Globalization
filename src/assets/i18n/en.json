@@ -1,29 +1,30 @@
 {
-    "toolbar":{
-        "app-name":"ANGULAR GLOBALIZATION",
-        "profile":"Profile",
-        "logout":"Logout"
+    "toolbar": {
+        "app-name": "ANGULAR GLOBALIZATION",
+        "profile": "Profile",
+        "logout": "Logout"
     },
-    "sidenav":{
-        "comp-one":"comp one",
-        "comp-two":"comp two",
-        "comp-three":"comp three",
-        "comp-four":"comp four"
+    "sidenav": {
+        "comp-one": "comp one",
+        "comp-two": "comp two",
+        "comp-three": "comp three",
+        "comp-four": "comp four",
+        "employee-list": "Employee List"
     },
-    "comp-one":{
-        "title":"Component-One Page",
-        "welcome-text":"Welcome to the Component-One Page"
+    "comp-one": {
+        "title": "Component-One Page",
+        "welcome-text": "Welcome to the Component-One Page"
     },
-    "comp-two":{
-        "title":"Component-Two Page",
-        "welcome-text":"Welcome to the Component-Two Page"
+    "comp-two": {
+        "title": "Component-Two Page",
+        "welcome-text": "Welcome to the Component-Two Page"
     },
-    "comp-three":{
-        "title":"Component-Three Page",
-        "welcome-text":"Welcome to the Component-Three Page"
+    "comp-three": {
+        "title": "Component-Three Page",
+        "welcome-text": "Welcome to the Component-Three Page"
     },
-    "comp-four":{
-        "title":"Component-Four Page",
-        "welcome-text":"Welcome to the Component-Four Page"
+    "comp-four": {
+        "title": "Component-Four Page",
+        "welcome-text": "Welcome to the Component-Four Page"
     }
 }

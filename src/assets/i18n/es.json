@@ -8,7 +8,8 @@
         "comp-one":"comp uno",
         "comp-two":"comp-dos",
         "comp-three":"comp-tres",
-        "comp-four":"comp-cuatro"
+        "comp-four":"comp-cuatro",
+        "employee-list": "lista de empleados"
     },
     "comp-one":{
         "title":"Página del componente uno",

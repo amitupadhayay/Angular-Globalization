@@ -8,7 +8,8 @@
         "comp-one": "شركات واحد",
         "comp-two": "شركات اثنين",
         "comp-three": "شركات ثلاثة",
-        "comp-four": "شركات أربعة"
+        "comp-four": "شركات أربعة",
+        "employee-list": "قائمة موظف"
     },
     "comp-one": {
         "title": "مكون- صفحة واحدة",

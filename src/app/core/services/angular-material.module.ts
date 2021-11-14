@@ -31,6 +31,7 @@ import { MatTabsModule, } from '@angular/material/tabs';
 import { MatToolbarModule, } from '@angular/material/toolbar';
 import { MatTooltipModule, } from '@angular/material/tooltip';
 import { MatChipsModule, } from '@angular/material/chips';
+import { NgxDatatableModule } from '@swimlane/ngx-datatable';
 
 
 
@@ -71,6 +72,7 @@ import { MatChipsModule, } from '@angular/material/chips';
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
+    NgxDatatableModule,
   ]
 })
 export class AngularMaterialModule { }
